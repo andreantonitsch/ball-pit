@@ -119,14 +119,14 @@ const textureLoader = new THREE.TextureLoader()
 const cubeTextureLoader = new THREE.CubeTextureLoader()
 
 const environmentMapTexture = cubeTextureLoader.load([
-    '/textures/environmentMaps/0/px.png',
-    '/textures/environmentMaps/0/nx.png',
-    '/textures/environmentMaps/0/py.png',
-    '/textures/environmentMaps/0/ny.png',
-    '/textures/environmentMaps/0/pz.png',
-    '/textures/environmentMaps/0/nz.png'
+    'textures/environmentMaps/0/px.png',
+    'textures/environmentMaps/0/nx.png',
+    'textures/environmentMaps/0/py.png',
+    'textures/environmentMaps/0/ny.png',
+    'textures/environmentMaps/0/pz.png',
+    'textures/environmentMaps/0/nz.png'
 ])
-const objectTexture = textureLoader.load('/textures/1.png')
+const objectTexture = textureLoader.load('textures/1.png')
 
 /**
  * Physics Materials
